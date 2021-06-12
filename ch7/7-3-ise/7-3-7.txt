@@ -1,0 +1,38 @@
+#delete MAC using MAC ID
+
+curl --insecure --include \
+     --header 'Accept: application/json' \
+     --user admin:1234Qwer \
+     --request DELETE https://10.72.80.184:9060/ers/config/endpoint/d13887e0-5d4d-11eb-aef6-4ae6e110041f
+
+
+
+HTTP/1.1 401
+Cache-Control: private
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+WWW-Authenticate: Basic realm="ERSRealm"
+Content-Length: 0
+Date: Sat, 23 Jan 2021 07:21:14 GMT
+Server:
+
+WANKIM-M-L2HC:7-3 wansookim$ clear
+WANKIM-M-L2HC:7-3 wansookim$ curl --insecure --include \
+>      --header 'Accept: application/json' \
+>      --user admin:1234Qwer \
+>      --request DELETE https://10.72.80.184:9060/ers/config/endpoint/b7093cc0-5d43-11eb-aef6-4ae6e110041f
+HTTP/1.1 204
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONIDSSO=A385C2562139CAB2BFE70E5ABFA84972; Path=/; Secure; HttpOnly
+Set-Cookie: APPSESSIONID=E474E225E8C3E6F09B2EB7FF6EA79702; Path=/ers; Secure; HttpOnly
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-WebKit-CSP: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-XSS-Protection: 1; mode=block
+Date: Sat, 23 Jan 2021 07:23:10 GMT
+Content-Type: application/json;charset=utf-8
+Server:

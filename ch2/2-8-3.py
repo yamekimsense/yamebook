@@ -1,0 +1,5 @@
+f = open("temp.txt", 'r')
+line = f.readline()
+print(line)
+print (type(line))
+f.close()

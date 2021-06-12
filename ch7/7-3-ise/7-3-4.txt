@@ -1,0 +1,39 @@
+#MAC add
+
+curl --insecure  \
+     --include \
+     --header 'Content-Type:application/json' \
+     --header 'Accept: application/json' \
+     --user admin:1234Qwer \
+     --request POST https://10.72.80.184:9060/ers/config/endpoint \
+     --data '
+{
+  "ERSEndPoint" : {
+    "name" : "Assets_Endpoint",
+    "description" : "Another asset",
+    "mac" : "00:01:02:03:99:99",
+    "groupId" : "ced46150-5d1a-11eb-aef6-4ae6e110041f",
+    "staticGroupAssignment" : true
+  }
+}'
+
+
+
+HTTP/1.1 201
+Set-Cookie: JSESSIONIDSSO=81E3B62E67DBBFA022DC1E1E53458ED0; Path=/; Secure; HttpOnly
+Set-Cookie: APPSESSIONID=F57EA1DA724F17EF10FA5798811260D8; Path=/ers; Secure; HttpOnly
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-WebKit-CSP: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-XSS-Protection: 1; mode=block
+Location: https://10.72.80.184:9060/ers/config/endpoint/95582e90-5d3b-11eb-aef6-4ae6e110041f
+Date: Sat, 23 Jan 2021 05:26:45 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 0
+Server:

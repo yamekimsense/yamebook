@@ -1,0 +1,41 @@
+#Getting MAC ID
+
+curl --insecure --include \
+     --header 'Accept: application/json' \
+     --user admin:1234Qwer \
+     https://10.72.80.184:9060/ers/config/endpoint?filter=mac.EQ.00:01:02:03:99:99
+
+
+'''
+HTTP/1.1 200
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONIDSSO=773B388AE5DFEF62624C6DFFF4DE1843; Path=/; Secure; HttpOnly
+Set-Cookie: APPSESSIONID=782C0D6E463E6D1E2F8D18AC7B2E4EDB; Path=/ers; Secure; HttpOnly
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-WebKit-CSP: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-XSS-Protection: 1; mode=block
+Date: Sat, 23 Jan 2021 06:36:22 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Server:
+
+{
+  "SearchResult" : {
+    "total" : 1,
+    "resources" : [ {
+      "id" : "b7093cc0-5d43-11eb-aef6-4ae6e110041f",
+      "name" : "00:01:02:03:99:99",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.72.80.184:9060/ers/config/endpoint/b7093cc0-5d43-11eb-aef6-4ae6e110041f",
+        "type" : "application/json"
+      }
+    } ]
+  }
+'''

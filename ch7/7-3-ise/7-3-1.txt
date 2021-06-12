@@ -1,0 +1,40 @@
+curl --insecure --include \
+     --header 'Accept: application/json' \
+     --user admin:1234Qwer \
+     https://10.72.80.184:9060/ers/config/node
+
+
+curl --insecure --include --header 'Accept: application/json' --user admin:1234Qwer https://10.72.80.184:9060/ers/config/node
+
+
+HTTP/1.1 200
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONIDSSO=31248560B0230439884D1DE84007F33E; Path=/; Secure; HttpOnly
+Set-Cookie: APPSESSIONID=58ABCFC9AF2CAB1F7182D65E7C259BD3; Path=/ers; Secure; HttpOnly
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-WebKit-CSP: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;
+X-XSS-Protection: 1; mode=block
+Date: Fri, 22 Jan 2021 23:10:40 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Server:
+
+{
+  "SearchResult" : {
+    "total" : 1,
+    "resources" : [ {
+      "id" : "470870d0-2247-11eb-a847-0242219bad28",
+      "name" : "EN-ISE",
+      "link" : {
+        "rel" : "self",
+        "href" : "https://10.72.80.184:9060/ers/config/node/470870d0-2247-11eb-a847-0242219bad28",
+        "type" : "application/json"
+      }
+    } ]
+  }

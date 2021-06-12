@@ -1,0 +1,61 @@
+mac_address ="18cc" host
+mac_address ="7e47" VLAN
+
+
+(venv) WANKIM-M-L2HC:4-7 wansookim$ python3 4-7-1.py
+start switch ip address? 18cc
+18cc is connected to Gi1/0/48 of 10.1.1.1
+description yame to c3650
+****
+connecting another switch to  10.1.1.2
+18cc is connected to Gi1/0/47 of  10.1.1.2
+
+****
+connecting another switch to  10.1.1.3
+18cc is connected to Gi1/0/5 of  10.1.1.3
+
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$ python3 4-7-1.py
+start switch ip address? 7e47
+7e47 is connected to Gi1/0/48 of 10.1.1.1
+ description yame to c3650
+****
+connecting another switch to  10.1.1.2
+7e47 is connected to Vl1 of  10.1.1.2
+
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$ python3 4-7-1.py
+start switch ip address? 1111
+(venv) WANKIM-M-L2HC:4-7 wansookim$ mac_address ="18cc" host
+mac_address ="7e47" lan
+
+
+(venv) WANKIM-M-L2HC:4-7 wansookim$ python3 4-7-1.py
+start switch ip address? 18cc
+18cc is connected to Gi1/0/48 of 10.1.1.1
+description yame to c3650
+****
+connecting another switch to  10.1.1.2
+18cc is connected to Gi1/0/47 of  10.1.1.2
+
+****
+connecting another switch to  10.1.1.3
+18cc is connected to Gi1/0/5 of  10.1.1.3
+
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$ python3 4-7-1.py
+start switch ip address? 7e47
+7e47 is connected to Gi1/0/48 of 10.1.1.1
+ description yame to c3650
+****
+connecting another switch to  10.1.1.2
+7e47 is connected to Vl1 of  10.1.1.2
+
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$
+(venv) WANKIM-M-L2HC:4-7 wansookim$ python3 4-7-1.py
+start switch ip address? 1111
+(venv) WANKIM-M-L2HC:4-7 wansookim$

@@ -1,0 +1,197 @@
+
+Yame_L2#1>enable
+Password:
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#terminal length 0
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#show ver
+Cisco IOS Software, C2960S Software (C2960S-UNIVERSALK9-M), Version 12.2(55)SE7, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Mon 28-Jan-13 10:28 by prod_rel_team
+Image text-base: 0x00003000, data-base: 0x01B00000
+
+ROM: Bootstrap program is Alpha board boot loader
+BOOTLDR: C2960S Boot Loader (C2960S-HBOOT-M) Version 12.2(55r)SE, RELEASE SOFTWARE (fc1)
+
+Yame_L2#1 uptime is 1 year, 16 weeks, 2 days, 16 hours, 22 minutes
+System returned to ROM by power-on
+System restarted at 18:23:29 KST Fri Nov 16 2018
+System image file is "flash:/c2960s-universalk9-mz.122-55.SE7/c2960s-universalk9-mz.122-55.SE7.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+cisco WS-C2960S-24TS-L (PowerPC) processor (revision H0) with 131072K bytes of memory.
+Processor board ID FOC1725Z0FS
+Last reset from power-on
+2 Virtual Ethernet interfaces
+1 FastEthernet interface
+28 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : F8:4F:57:2C:A3:00
+Motherboard assembly number     : 73-11910-09
+Power supply part number        : 341-0328-02
+Motherboard serial number       : FOC172406L7
+Power supply serial number      : DCA1718M52X
+Model revision number           : H0
+Motherboard revision number     : A0
+Model number                    : WS-C2960S-24TS-L
+Daughterboard assembly number   : 73-11933-04
+Daughterboard serial number     : FOC172422WE
+System serial number            : FOC1725Z0FS
+Top Assembly Part Number        : 800-30954-04
+Top Assembly Revision Number    : A0
+Version ID                      : V04
+CLEI Code Number                : COMGG00ARD
+Daughterboard revision number   : A0
+Hardware Board Revision Number  : 0x01
+
+
+Switch Ports Model              SW Version            SW Image
+------ ----- -----              ----------            ----------
+*    1 28    WS-C2960S-24TS-L   12.2(55)SE7           C2960S-UNIVERSALK9-M
+
+
+Configuration register is 0xF
+
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#show ip int br
+Interface              IP-Address      OK? Method Status                Protocol
+Vlan1                  unassigned      YES NVRAM  up                    up
+Vlan203                192.168.3.105   YES NVRAM  up                    up
+FastEthernet0          unassigned      YES NVRAM  administratively down down
+GigabitEthernet1/0/1   unassigned      YES unset  up                    up
+GigabitEthernet1/0/2   unassigned      YES unset  down                  down
+GigabitEthernet1/0/3   unassigned      YES unset  up                    up
+GigabitEthernet1/0/4   unassigned      YES unset  down                  down
+GigabitEthernet1/0/5   unassigned      YES unset  up                    up
+GigabitEthernet1/0/6   unassigned      YES unset  up                    up
+GigabitEthernet1/0/7   unassigned      YES unset  up                    up
+GigabitEthernet1/0/8   unassigned      YES unset  up                    up
+GigabitEthernet1/0/9   unassigned      YES unset  down                  down
+GigabitEthernet1/0/10  unassigned      YES unset  down                  down
+GigabitEthernet1/0/11  unassigned      YES unset  up                    up
+GigabitEthernet1/0/12  unassigned      YES unset  up                    up
+GigabitEthernet1/0/13  unassigned      YES unset  up                    up
+GigabitEthernet1/0/14  unassigned      YES unset  up                    up
+GigabitEthernet1/0/15  unassigned      YES unset  down                  down
+GigabitEthernet1/0/16  unassigned      YES unset  down                  down
+GigabitEthernet1/0/17  unassigned      YES unset  down                  down
+GigabitEthernet1/0/18  unassigned      YES unset  down                  down
+GigabitEthernet1/0/19  unassigned      YES unset  down                  down
+GigabitEthernet1/0/20  unassigned      YES unset  down                  down
+GigabitEthernet1/0/21  unassigned      YES unset  down                  down
+GigabitEthernet1/0/22  unassigned      YES unset  down                  down
+GigabitEthernet1/0/23  unassigned      YES unset  down                  down
+GigabitEthernet1/0/24  unassigned      YES unset  up                    up
+GigabitEthernet1/0/25  unassigned      YES unset  up                    up
+GigabitEthernet1/0/26  unassigned      YES unset  up                    up
+GigabitEthernet1/0/27  unassigned      YES unset  down                  down
+GigabitEthernet1/0/28  unassigned      YES unset  down                  down
+Port-channel1          unassigned      YES unset  up                    up
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#show cdp nei
+% CDP is not enabled
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#show cdp nei det
+% CDP is not enabled
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#show module
+                              ^
+% Invalid input detected at '^' marker.
+
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#show logg
+Syslog logging: enabled (0 messages dropped, 0 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 173 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 173 messages logged, xml disabled,
+                     filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    File logging: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 176 message lines logged
+
+Log Buffer (4096 bytes):
+rnet1/0/24, changed state to down
+Oct 24 06:40:40.849: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up
+Oct 24 06:40:41.851: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to up
+Oct 27 05:02:04.021: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+Oct 27 05:02:04.027: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel1, changed state to down
+Oct 27 05:02:05.038: %LINK-3-UPDOWN: Interface Port-channel1, changed state to down
+Oct 27 05:02:05.038: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+Oct 27 09:57:19.108: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+Oct 27 09:57:21.772: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+Oct 27 09:57:22.762: %LINK-3-UPDOWN: Interface Port-channel1, changed state to up
+Oct 27 09:57:23.764: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel1, changed state to up
+Nov 13 02:44:02.718: %GBIC_SECURITY_CRYPT-4-VN_DATA_CRC_ERROR: GBIC in port Gi1/0/26 has bad crc
+Nov 13 02:44:02.718: %PM-4-ERR_DISABLE: gbic-invalid error detected on Gi1/0/26, putting Gi1/0/26 in err-disable state
+Nov 13 02:45:41.971: %SYS-5-CONFIG_I: Configured from console by ilsan on vty0 (192.168.5.80)
+Nov 13 02:46:55.422: %SYS-5-CONFIG_I: Configured from console by ilsan on vty0 (192.168.5.80)
+Nov 13 02:47:12.656: %SYS-5-CONFIG_I: Configured from console by ilsan on vty0 (192.168.5.80)
+Nov 13 02:47:39.197: %LINK-5-CHANGED: Interface GigabitEthernet1/0/26, changed state to administratively down
+Nov 13 02:47:48.917: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+Nov 13 02:48:48.972: %GBIC_SECURITY_CRYPT-4-VN_DATA_CRC_ERROR: GBIC in port Gi1/0/26 has bad crc
+Nov 13 02:48:48.972: %PHY-4-UNSUPPORTED_TRANSCEIVER: Unsupported transceiver found in Gi1/0/26
+Nov 13 02:49:13.274: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+Nov 13 02:49:13.284: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel1, changed state to down
+Nov 13 02:49:14.291: %LINK-3-UPDOWN: Interface Port-channel1, changed state to down
+Nov 13 02:49:14.291: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+Nov 13 02:49:22.717: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+Nov 13 02:49:24.735: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+Nov 13 02:49:25.726: %LINK-3-UPDOWN: Interface Port-channel1, changed state to up
+Nov 13 02:49:26.728: %LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel1, changed state to up
+Nov 13 02:49:37.675: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+Nov 13 02:49:39.683: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+Nov 13 02:51:40.375: %SYS-5-CONFIG_I: Configured from console by ilsan on vty0 (192.168.5.80)
+Nov 13 02:55:00.636: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+Nov 13 02:55:01.643: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+Nov 13 02:55:23.889: %GBIC_SECURITY_CRYPT-4-VN_DATA_CRC_ERROR: GBIC in port Gi1/0/26 has bad crc
+Nov 13 02:55:23.889: %PHY-4-UNSUPPORTED_TRANSCEIVER: Unsupported transceiver found in Gi1/0/26
+Nov 13 02:58:31.252: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+Nov 13 02:58:33.260: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+Nov 13 03:00:43.992: %PM-4-ERR_DISABLE: gbic-invalid error detected on Gi1/0/28, putting Gi1/0/28 in err-disable state
+Nov 13 03:00:45.309: %SYS-5-CONFIG_I: Configured from console by ilsan on vty0 (192.168.5.80)
+Nov 13 03:01:24.532: %SYS-5-CONFIG_I: Configured from console by ilsan on vty0 (192.168.5.80)
+Nov 13 03:01:51.949: %SYS-5-CONFIG_I: Configured from console by ilsan on vty0 (192.168.5.80)
+Jan 21 05:19:50.732: %CLEAR-5-COUNTERS: Clear counter on all interfaces by ilsan on vty0 (192.168.5.80)
+Yame_L2#1#
+Yame_L2#1#
+Yame_L2#1#exit

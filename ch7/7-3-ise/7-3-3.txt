@@ -1,0 +1,19 @@
+#Group ID
+
+curl -k --header 'Accept: application/json' \
+     --user admin:1234Qwer \
+     https://10.72.80.184:9060/ers/config/endpointgroup/name/{yame}
+
+
+{
+  "EndPointGroup" : {
+    "id" : "ced46150-5d1a-11eb-aef6-4ae6e110041f",
+    "name" : "yame",
+    "description" : "",
+    "systemDefined" : false,
+    "link" : {
+      "rel" : "self",
+      "href" : "https://10.72.80.184:9060/ers/config/endpointgroup/name/yame",
+      "type" : "application/json"
+    }
+  }

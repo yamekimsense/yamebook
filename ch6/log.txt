@@ -1,0 +1,531 @@
+show log
+Syslog logging: enabled (0 messages dropped, 3 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 853 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 35 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 855 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 854 message lines logged
+        Logging to 192.168.30.116  (udp port 514, audit disabled,
+              link up),
+              53 message lines logged, 
+              0 message lines rate-limited, 
+              0 message lines dropped-by-MD, 
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (131072 bytes):
+
+*Nov 16 06:09:14.176: %VUDI-6-EVENT: [serial number: 9LC2FZFZ6IC], [vUDI: ], vUDI is successfully retrieved from license file
+*Nov 16 06:09:14.249: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+*Nov 16 06:09:15.456: %SMART_LIC-6-AGENT_READY: Smart Agent for Licensing is initialized
+*Nov 16 06:09:15.456: %SMART_LIC-6-AGENT_ENABLED: Smart Agent for Licensing is enabled 
+*Nov 16 06:09:15.456: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+*Nov 16 06:09:18.450: %VUDI-6-EVENT: [serial number: 9LC2FZFZ6IC], [vUDI: CSR1000V:9LC2FZFZ6IC], vUDI initialization is now complete
+*Nov 16 06:09:18.539: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Nov 16 06:09:18.560: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet5, changed state to down
+*Nov 16 06:09:18.591: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet6, changed state to down
+*Nov 16 06:09:18.719: BFD: brace register success
+*Nov 16 06:09:20.861: %SMART_LIC-6-AGENT_READY: Smart Agent for Licensing is initialized
+*Nov 16 06:09:20.861: %SMART_LIC-6-AGENT_ENABLED: Smart Agent for Licensing is enabled 
+*Nov 16 06:09:20.861: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+*Nov 16 06:09:20.882: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_ENFORCED: Cisco PSB security compliance is being enforced
+*Nov 16 06:09:20.996: VXE-CSL-DBG:Unable to open the postFR backup file/file not present 
+
+*Nov 16 06:09:21.057: %LINK-3-UPDOWN: Interface Lsmpi0, changed state to up
+*Nov 16 06:09:21.082: %LINK-3-UPDOWN: Interface EOBC0, changed state to up
+*Nov 16 06:09:21.082: %LINK-3-UPDOWN: Interface LIIN0, changed state to up
+*Nov 16 06:09:21.082: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Nov 16 06:09:21.092: %LINK-3-UPDOWN: Interface GigabitEthernet5, changed state to down
+*Nov 16 06:09:21.093: %LINK-3-UPDOWN: Interface GigabitEthernet6, changed state to down
+*Nov 16 06:09:21.319: %PNP-6-PNP_DISCOVERY_STARTED: PnP Discovery started
+*Nov 16 06:07:26.162: %IOSXE-3-PLATFORM: R0/0: kernel: Warning: unable to open an initial console.
+*Nov 16 06:08:11.617: %BOOT-5-OPMODE_LOG: R0/0: binos: System booted in AUTONOMOUS mode
+*Nov 16 06:09:21.357: %SMART_LIC-6-HA_ROLE_CHANGED: Smart Agent HA role changed to Active.
+*Nov 16 06:09:21.837: %SMART_LIC-5-EVAL_START: Entering evaluation period
+*Nov 16 06:09:21.837: %VXE_THROUGHPUT-6-LEVEL: Throughput level has been set to 1000 kbps
+*Nov 16 06:09:21.846: %VXE_THROUGHPUT-6-LEVEL: Throughput level has been set to 1000 kbps
+*Nov 16 06:09:22.109: %LINEPROTO-5-UPDOWN: Line protocol on Interface Lsmpi0, changed state to up
+*Nov 16 06:09:22.109: %LINEPROTO-5-UPDOWN: Line protocol on Interface EOBC0, changed state to up
+*Nov 16 06:09:22.109: %LINEPROTO-5-UPDOWN: Line protocol on Interface LIIN0, changed state to up
+*Nov 16 06:09:22.109: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Nov 16 06:09:22.109: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet5, changed state to down
+*Nov 16 06:09:22.109: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet6, changed state to down
+*Nov 16 06:09:22.190: %ONEP_BASE-6-SS_ENABLED: ONEP: Service set Base was enabled by Default
+*Nov 16 06:09:22.422: %SYS-7-NVRAM_INIT_WAIT_TIME: Waited 0 seconds for NVRAM to be available
+*Nov 16 06:09:22.502: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named ssh has been generated or imported by crypto config
+*Nov 16 06:09:22.535: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Nov 16 06:09:22.549: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: TP-self-signed-1860523977 created succesfully
+*Nov 16 06:09:22.551: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: SLA-TrustPoint created succesfully
+*Nov 16 06:09:22.566: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Nov 16 06:09:22.573: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback100, changed state to up
+*Nov 16 06:09:22.587: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback101, changed state to up
+*Nov 16 06:09:22.593: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback102, changed state to up
+*Nov 16 06:09:22.601: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback200, changed state to up
+*Nov 16 06:09:22.606: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback201, changed state to up
+*Nov 16 06:09:22.610: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback202, changed state to up
+*Nov 16 06:09:22.614: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback300, changed state to up
+*Nov 16 06:09:22.618: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback301, changed state to up
+*Nov 16 06:09:22.621: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback302, changed state to up
+*Nov 16 06:09:22.676: %SSH-5-DISABLED: SSH 1.99 has been disabled
+*Nov 16 06:09:22.702: %SYS-5-CONFIG_I: Configured from memory by console
+*Nov 16 06:09:22.984: %IOSXE_OIR-6-INSCARD: Card (fp) inserted in slot F0
+*Nov 16 06:09:22.984: %IOSXE_OIR-6-ONLINECARD: Card (fp) online in slot F0
+*Nov 16 06:09:23.082: %SYS-5-RESTART: System restarted --
+Cisco IOS Software [Amsterdam], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 17.3.1a, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Wed 12-Aug-20 00:16 by mcpre
+*Nov 16 06:09:23.137: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Nov 16 06:09:23.492: %SYS-6-BOOTTIME: Time taken to reboot after reload =  147 seconds
+*Nov 16 06:09:24.713: %LINK-5-CHANGED: Interface GigabitEthernet4, changed state to administratively down
+*Nov 16 06:09:24.715: %LINK-5-CHANGED: Interface GigabitEthernet5, changed state to administratively down
+*Nov 16 06:09:24.716: %LINK-5-CHANGED: Interface GigabitEthernet6, changed state to administratively down
+*Nov 16 06:09:25.370: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named ssh.server has been generated or imported by crypto-engine
+*Nov 16 06:09:28.588: %PNP-6-PNP_BEST_UDI_UPDATE: Best UDI [PID:CSR1000V,VID:V00,SN:9LC2FZFZ6IC] identified via (entity-mibs)
+*Nov 16 06:09:28.588: %PNP-6-PNP_CDP_UPDATE: Device UDI [PID:CSR1000V,VID:V00,SN:9LC2FZFZ6IC] identified for CDP
+*Nov 16 06:09:28.588: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+*Nov 16 06:09:40.899: %PKI-2-NON_AUTHORITATIVE_CLOCK: PKI functions can not be initialized until an authoritative time source, like NTP, can be obtained.
+*Nov 16 06:09:54.090: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+*Nov 16 06:09:54.090: %CALL_HOME-6-CALL_HOME_ENABLED: Call-home is enabled by Smart Agent for Licensing.
+*Nov 16 06:10:25.906: %WSMAN-3-INVALID_TRUSTPOINT: Trustpoint associated with HTTP is either invalid or does not exist
+*Nov 16 06:11:11.915: %WSMAN-3-INVALID_TRUSTPOINT: Trustpoint associated with HTTP is either invalid or does not exist
+*Nov 16 06:14:42.441: %SYS-5-CONFIG_I: Configured from console by console
+*Nov 16 06:14:50.542: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Nov 16 06:14:51.543: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Nov 16 06:14:54.639: %SYS-5-CONFIG_I: Configured from console by console
+*Nov 16 06:15:03.843: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.235.196, mask 255.255.255.0, hostname csr1kv-17.3.1a-on-fusion
+
+*Nov 16 06:15:12.441: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 06:15:12 UTC Mon Nov 16 2020
+*Nov 16 06:16:53.631: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Nov 16 06:17:15.169: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named SLA-KeyPair has been generated or imported by crypto-engine
+*Nov 16 06:17:15.200: %PKI-4-NOCONFIGAUTOSAVE: Configuration was modified.  Issue "write memory" to save new IOS PKI configuration
+*Nov 16 06:17:23.681: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is allowed
+*Nov 16 06:17:23.682: %SMART_LIC-6-AGENT_REG_SUCCESS: Smart Agent for Licensing Registration successful. udi PID:CSR1000V,SN:9LC2FZFZ6IC
+*Nov 16 06:17:23.697: %SIP-1-LICENSING: SIP service is Up as license status is changed to registered.
+*Nov 16 06:17:23.802: %SMART_LIC-5-EVAL_START: Entering evaluation period
+*Nov 16 06:17:23.807: %VXE_THROUGHPUT-6-LEVEL: Throughput level has been set to 1000 kbps
+*Nov 16 06:17:23.812: %VXE_THROUGHPUT-6-LEVEL: Throughput level has been set to 1000 kbps
+*Nov 16 06:17:27.542: %SMART_LIC-4-CONFIG_NOT_SAVED: Smart Licensing configuration has not been saved
+*Nov 16 06:17:30.989: %SMART_LIC-5-IN_COMPLIANCE: All entitlements and licenses in use on this device are authorized
+*Nov 16 06:17:30.989: %SMART_LIC-5-END_POINT_RESET: End Point list reset
+*Nov 16 06:17:30.989: %SMART_LIC-6-AUTH_RENEW_SUCCESS: Authorization renewal successful. State=authorized for udi PID:CSR1000V,SN:9LC2FZFZ6IC
+*Nov 16 06:17:30.993: %SIP-1-LICENSING: SIP service is Up as license status is changed to registered.
+*Nov 16 06:17:31.007: %VXE_THROUGHPUT-6-LEVEL: Throughput level has been set to 10000000 kbps
+*Nov 16 06:25:07.426: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Nov 16 06:26:51.547: %SMART_LIC-6-AGENT_DEREG_SUCCESS: Smart Agent for Licensing De-registration with the Cisco Smart Software Manager (CSSM) was successful
+*Nov 16 06:26:51.549: %SMART_LIC-5-EVAL_START: Entering evaluation period
+*Nov 16 06:26:51.550: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+*Nov 16 06:26:51.554: %VXE_THROUGHPUT-6-LEVEL: Throughput level has been set to 1000 kbps
+*Nov 16 06:26:51.556: %VXE_THROUGHPUT-6-LEVEL: Throughput level has been set to 1000 kbps
+*Nov 16 06:37:15.562: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Nov 16 06:37:15.562: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Nov 16 06:38:00.712: %SYS-5-CONFIG_I: Configured from console by console
+*Nov 16 06:38:33.290: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 06:38:33 UTC Mon Nov 16 2020
+*Nov 16 06:38:50.038: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Nov 17 02:21:54.040: %SYS-5-CONFIG_I: Configured from console by console
+*Nov 17 02:27:22.013: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Nov 17 02:27:22.013: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Nov 17 02:31:54.158: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Nov 24 00:46:05.212: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 00:46:05 UTC Tue Nov 24 2020
+*Nov 24 00:46:49.688: %PKI-6-TRUSTPOINT_DELETE: Trustpoint: TP-self-signed-1860523977 deleted succesfully
+*Nov 24 00:46:49.693: yang-infra: Unusable trustpoint deleted: TP-self-signed-1860523977
+*Nov 24 00:46:49.694: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: TP-self-signed-1860523977 created succesfully
+*Nov 24 00:46:50.260: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named TP-self-signed-1860523977 has been generated or imported by crypto-engine
+*Nov 24 00:46:49.963: %PSD_MOD-5-DMI_NOTIFY_NETCONF_START: R0/0: psd: PSD/DMI: netconf-yang server has been notified to start
+*Nov 24 00:46:50.353: %PKI-4-NOCONFIGAUTOSAVE: Configuration was modified.  Issue "write memory" to save new IOS PKI configuration
+*Nov 24 00:46:50.353: yang-infra: PKI no mismatch found
+*Nov 24 00:47:52.599: %NDBMAN-5-ACTIVE: R0/0: ndbmand: All data providers active.
+*Nov 24 00:48:02.020: %DMI-5-NACM_INIT: R0/0: dmiauthd: NACM configuration has been set to its initial configuration.
+*Nov 24 00:48:08.985: %DMI-5-SYNC_COMPLETE: R0/0: dmiauthd: The running configuration has been synchronized to the NETCONF running data store.
+*Nov 24 00:55:49.945: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Nov 24 00:56:49.959: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Nov 24 00:56:49.959: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Nov 24 00:56:49.959: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Nov 24 01:10:00.444: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Nov 24 01:10:00.444: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_EXCEPTION_ADDED: Cisco PSB security compliance exception has been added by RSA Key Size for use of SSH Process
+*Nov 24 01:10:00.659: %SSH-4-SSH2_UNEXPECTED_MSG: Unexpected message type has arrived. Terminating the connection from 192.168.235.1
+*Nov 24 01:11:04.538: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Nov 24 01:11:10.309: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 22] at 01:11:10 UTC Tue Nov 24 2020
+*Nov 24 01:11:12.927: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Nov 24 01:11:18.915: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61588 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:14:19.093: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 01:14:19 UTC Tue Nov 24 2020
+*Nov 24 01:14:56.958: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Nov 24 01:15:05.247: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61835 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:15:12.370: %PSD_MOD-5-DMI_NOTIFY_NETCONF_STOP: R0/0: psd: PSD/DMI: netconf-yang server has been notified to stop
+*Nov 24 01:15:13.503: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Nov 24 01:15:34.535: %PSD_MOD-5-DMI_NOTIFY_NETCONF_START: R0/0: psd: PSD/DMI: netconf-yang server has been notified to start
+*Nov 24 01:15:59.613: %DMI-5-AUTHENTICATION_FAILED: R0/0: dmiauthd: Authentication failure from 192.168.235.1:61898 for netconf over ssh.
+*Nov 24 01:16:01.329: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61898 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:16:08.959: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61910 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:16:16.398: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Nov 24 01:16:19.706: %NDBMAN-5-ACTIVE: R0/0: ndbmand: All data providers active.
+*Nov 24 01:16:27.035: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61940 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:16:32.696: %DMI-5-SYNC_COMPLETE: R0/0: dmiauthd: The running configuration has been synchronized to the NETCONF running data store.
+*Nov 24 01:16:39.154: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61949 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:26:18.339: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Nov 24 01:26:18.339: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Nov 24 01:47:48.989: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:63650 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:49:02.260: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:63695 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:49:17.135: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:63712 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 24 01:52:23.999: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Nov 24 01:52:28.453: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Nov 24 01:52:33.983: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Nov 24 01:52:34.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Nov 24 01:52:39.181: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.235.196, mask 255.255.255.0, hostname csr1kv-17.3.1a-on-fusion
+
+*Nov 24 01:52:53.983: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Nov 24 01:52:57.562: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Nov 24 01:53:03.983: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Nov 24 01:53:04.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Nov 24 01:53:08.014: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.235.196, mask 255.255.255.0, hostname csr1kv-17.3.1a-on-fusion
+
+*Nov 25 00:31:57.067: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:60873 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 00:32:19.300: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:60887 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 00:41:26.466: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Nov 25 00:52:59.621: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:62184 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 00:53:24.744: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:62204 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 01:02:12.064: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:62762 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 01:03:45.448: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:62857 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 01:06:56.188: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:63023 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 01:10:06.834: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:63189 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 25 01:13:08.488: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Nov 25 01:13:12.065: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Nov 25 01:13:18.488: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Nov 25 01:13:19.488: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Nov 25 01:13:23.257: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.235.196, mask 255.255.255.0, hostname csr1kv-17.3.1a-on-fusion
+
+*Nov 25 03:24:44.919: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Nov 25 03:24:49.000: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Nov 25 03:24:54.919: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Nov 25 03:24:55.919: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Nov 25 03:24:59.690: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.235.196, mask 255.255.255.0, hostname csr1kv-17.3.1a-on-fusion
+
+*Nov 30 06:23:09.350: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Nov 30 06:23:13.431: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Nov 30 06:23:19.350: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Nov 30 06:23:20.350: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Nov 30 06:23:24.493: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.235.196, mask 255.255.255.0, hostname csr1kv-17.3.1a-on-fusion
+
+*Nov 30 06:24:03.313: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 06:24:03 UTC Mon Nov 30 2020
+*Nov 30 06:25:40.071: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback100, changed state to down
+*Nov 30 06:25:40.072: %LINK-5-CHANGED: Interface Loopback100, changed state to administratively down
+*Nov 30 06:26:03.423: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback101, changed state to down
+*Nov 30 06:26:03.423: %LINK-5-CHANGED: Interface Loopback101, changed state to administratively down
+*Nov 30 06:26:05.286: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback102, changed state to down
+*Nov 30 06:26:05.286: %LINK-5-CHANGED: Interface Loopback102, changed state to administratively down
+*Nov 30 06:26:07.216: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback200, changed state to down
+*Nov 30 06:26:07.216: %LINK-5-CHANGED: Interface Loopback200, changed state to administratively down
+*Nov 30 06:26:08.489: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback201, changed state to down
+*Nov 30 06:26:08.489: %LINK-5-CHANGED: Interface Loopback201, changed state to administratively down
+*Nov 30 06:26:38.438: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback300, changed state to down
+*Nov 30 06:26:38.439: %LINK-5-CHANGED: Interface Loopback300, changed state to administratively down
+*Nov 30 06:26:39.713: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback301, changed state to down
+*Nov 30 06:26:39.714: %LINK-5-CHANGED: Interface Loopback301, changed state to administratively down
+*Nov 30 06:26:40.606: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback302, changed state to down
+*Nov 30 06:26:40.607: %LINK-5-CHANGED: Interface Loopback302, changed state to administratively down
+*Nov 30 06:26:42.031: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Nov 30 06:35:01.455: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Nov 30 06:37:16.475: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Nov 30 06:37:16.475: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Nov 30 06:37:16.475: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Nov 30 15:31:00.287: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 15:31:00 UTC Mon Nov 30 2020
+*Nov 30 15:31:52.093: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61138 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:40:39.452: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61694 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:40:51.856: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61712 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:41:00.720: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Nov 30 15:41:00.720: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Nov 30 15:41:15.972: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61736 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:41:30.691: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61758 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:44:31.492: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61928 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:44:40.136: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61933 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:44:51.525: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61966 and was authorized for netconf over ssh. External groups: PRIV15
+*Nov 30 15:45:08.569: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:61988 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:17:10.517: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Dec  2 15:17:14.795: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Dec  2 15:17:20.512: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Dec  2 15:17:21.512: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Dec  2 15:17:25.188: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.235.196, mask 255.255.255.0, hostname csr1kv-17.3.1a
+
+*Dec  2 15:17:32.669: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 15:17:32 UTC Wed Dec 2 2020
+*Dec  2 15:20:57.611: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49588 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:21:05.972: %PSD_MOD-5-DMI_NOTIFY_NETCONF_STOP: R0/0: psd: PSD/DMI: netconf-yang server has been notified to stop
+*Dec  2 15:21:24.548: %PSD_MOD-5-DMI_NOTIFY_NETCONF_START: R0/0: psd: PSD/DMI: netconf-yang server has been notified to start
+*Dec  2 15:21:26.208: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Dec  2 15:21:59.476: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49609 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:22:05.771: %NDBMAN-5-ACTIVE: R0/0: ndbmand: All data providers active.
+*Dec  2 15:22:10.306: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49611 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:22:15.264: %DMI-5-SYNC_COMPLETE: R0/0: dmiauthd: The running configuration has been synchronized to the NETCONF running data store.
+*Dec  2 15:22:34.910: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49622 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:28:10.064: %PSD_MOD-5-DMI_NOTIFY_RESTCONF_START: R0/0: psd: PSD/DMI: restconf server has been notified to start
+*Dec  2 15:28:29.472: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Dec  2 15:29:42.219: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49734 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:34:25.798: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49792 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:35:05.114: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49801 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:35:22.027: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Dec  2 15:35:23.304: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback202, changed state to down
+*Dec  2 15:35:23.304: %LINK-5-CHANGED: Interface Loopback202, changed state to administratively down
+*Dec  2 15:35:31.022: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49803 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:35:50.584: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49806 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:36:11.423: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49809 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:36:47.479: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49812 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:37:03.466: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:49825 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  2 15:37:04.120: %SYS-5-CONFIG_P: Configured programmatically by process iosp_vty_100001_dmiauthd_fd_177 from console as NETCONF on vty63
+*Dec  2 15:37:04.121: %DMI-5-CONFIG_I: R0/0: dmiauthd: Configured from NETCONF/RESTCONF by cisco, transaction-id 134
+*Dec  2 15:47:11.847: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Dec  2 15:47:11.847: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Dec  2 23:17:15.463: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:50934 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  3 12:50:09.278: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 12:50:09 UTC Thu Dec 3 2020
+*Dec  3 12:53:15.697: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.235.1)
+*Dec  3 12:57:29.342: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Dec  3 13:04:46.432: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Dec  3 13:04:46.432: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Dec  3 13:54:11.920: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 13:54:11 UTC Thu Dec 3 2020
+*Dec  3 13:55:00.594: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.235.1] [localport: 23] at 13:55:00 UTC Thu Dec 3 2020
+*Dec  3 14:06:41.800: %SYS-5-CONFIG_I: Configured from console by cisco on vty1 (192.168.235.1)
+*Dec  3 14:07:27.856: %SYS-5-CONFIG_I: Configured from console by cisco on vty1 (192.168.235.1)
+*Dec  4 00:44:53.111: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:51272 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  4 00:45:00.995: %DMI-5-AUTH_PASSED: R0/0: dmiauthd: User 'cisco' authenticated successfully from 192.168.235.1:51279 and was authorized for netconf over ssh. External groups: PRIV15
+*Dec  4 00:47:51.661: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.235.1)), user cisco
+*Dec  4 00:47:51.662: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.235.1)
+*Dec  4 00:54:43.741: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Dec 12 06:57:04.626: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to down
+*Dec 12 06:57:08.789: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to down
+*Dec 12 06:57:14.626: %LINK-3-UPDOWN: Interface GigabitEthernet4, changed state to up
+*Dec 12 06:57:15.626: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet4, changed state to up
+*Dec 12 06:57:21.148: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet4 assigned DHCP address 192.168.30.108, mask 255.255.255.0, hostname csr1kv-17.3.1a
+
+*Dec 12 06:59:48.323: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.1] [localport: 23] at 06:59:48 UTC Sat Dec 12 2020
+*Dec 12 07:09:53.732: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.30.1)), user cisco
+*Dec 12 07:09:53.732: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.1)
+*Dec 12 07:28:13.942: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Dec 19 04:13:19.391: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:13:19 UTC Sat Dec 19 2020
+*Dec 19 04:21:16.262: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:21:16 UTC Sat Dec 19 2020
+*Dec 19 04:21:16.263: %SYS-6-LOGOUT: User cisco has exited tty session 2(192.168.30.116)
+*Dec 19 04:21:58.484: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:21:58 UTC Sat Dec 19 2020
+*Dec 19 04:22:01.314: %SYS-6-LOGOUT: User cisco has exited tty session 2(192.168.30.116)
+*Dec 19 04:22:16.444: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:22:16 UTC Sat Dec 19 2020
+*Dec 19 04:22:16.559: %SYS-6-LOGOUT: User cisco has exited tty session 2(192.168.30.116)
+*Dec 19 04:22:24.748: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:22:24 UTC Sat Dec 19 2020
+*Dec 19 04:23:01.710: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Dec 19 04:23:19.713: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.30.116)), user cisco
+*Dec 19 04:23:19.714: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 19 04:27:55.681: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:27:55 UTC Sat Dec 19 2020
+*Dec 19 04:27:56.862: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 19 04:30:10.903: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:30:10 UTC Sat Dec 19 2020
+*Dec 19 04:30:10.919: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 19 04:36:23.252: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:36:23 UTC Sat Dec 19 2020
+*Dec 19 04:36:23.262: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 19 04:38:02.774: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:38:02 UTC Sat Dec 19 2020
+*Dec 19 04:38:02.783: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 19 04:39:56.588: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:39:56 UTC Sat Dec 19 2020
+*Dec 19 04:39:56.628: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 19 04:40:35.936: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 04:40:35 UTC Sat Dec 19 2020
+*Dec 19 04:40:35.981: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 01:54:49.185: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 01:54:49 UTC Sun Dec 20 2020
+*Dec 20 01:54:49.224: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 01:55:21.103: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 01:55:21 UTC Sun Dec 20 2020
+*Dec 20 01:55:21.143: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 01:55:37.559: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 01:55:37 UTC Sun Dec 20 2020
+*Dec 20 01:55:37.592: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 01:56:46.759: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 01:56:46 UTC Sun Dec 20 2020
+*Dec 20 01:56:46.793: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 02:48:55.292: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 02:48:55 UTC Sun Dec 20 2020
+*Dec 20 03:00:36.624: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (192.168.30.116)), user cisco
+*Dec 20 03:00:36.624: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 03:24:16.122: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 03:24:16 UTC Sun Dec 20 2020
+*Dec 20 03:24:16.154: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 04:47:25.661: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 04:47:25.662: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_EXCEPTION_ADDED: Cisco PSB security compliance exception has been added by RSA Key Size for use of SSH Process
+*Dec 20 04:47:26.099: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 04:47:26 UTC Sun Dec 20 2020
+*Dec 20 04:47:27.662: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 04:47:27.663: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 08:23:07.506: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 08:23:07.917: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 08:23:07 UTC Sun Dec 20 2020
+*Dec 20 08:23:09.436: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 08:23:09.436: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 08:37:44.062: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 08:37:44.474: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 08:37:44 UTC Sun Dec 20 2020
+*Dec 20 08:37:45.986: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 08:37:45.986: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 08:37:58.572: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 08:37:58.982: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 08:37:58 UTC Sun Dec 20 2020
+*Dec 20 08:38:00.495: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 08:38:00.495: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 08:47:54.423: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 08:47:54.842: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 08:47:54 UTC Sun Dec 20 2020
+*Dec 20 08:47:55.611: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 08:47:56.074: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 08:47:56.082: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 08:47:56.082: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_EXCEPTION_ADDED: Cisco PSB security compliance exception has been added by RSA Key Size for use of SSH Process
+*Dec 20 08:47:56.506: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 08:47:56 UTC Sun Dec 20 2020
+*Dec 20 08:47:56.843: %SYS-5-CONFIG_I: Configured from console by cisco on vty1 (192.168.30.116)
+*Dec 20 08:47:57.092: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 08:47:57.276: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback100, changed state to up
+*Dec 20 08:47:57.291: %LINK-3-UPDOWN: Interface Loopback100, changed state to up
+*Dec 20 08:47:57.531: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback101, changed state to up
+*Dec 20 08:47:57.531: %LINK-3-UPDOWN: Interface Loopback101, changed state to up
+*Dec 20 08:47:57.564: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 08:47:57 UTC Sun Dec 20 2020
+*Dec 20 08:47:57.580: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback102, changed state to up
+*Dec 20 08:47:57.580: %LINK-3-UPDOWN: Interface Loopback102, changed state to up
+*Dec 20 08:47:57.826: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 08:47:58.702: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback200, changed state to up
+*Dec 20 08:47:58.703: %LINK-3-UPDOWN: Interface Loopback200, changed state to up
+*Dec 20 08:47:58.754: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback201, changed state to up
+*Dec 20 08:47:58.755: %LINK-3-UPDOWN: Interface Loopback201, changed state to up
+*Dec 20 08:47:58.810: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback202, changed state to up
+*Dec 20 08:47:58.810: %LINK-3-UPDOWN: Interface Loopback202, changed state to up
+*Dec 20 08:47:59.729: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback300, changed state to up
+*Dec 20 08:47:59.729: %LINK-3-UPDOWN: Interface Loopback300, changed state to up
+*Dec 20 08:47:59.759: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback301, changed state to up
+*Dec 20 08:47:59.759: %LINK-3-UPDOWN: Interface Loopback301, changed state to up
+*Dec 20 08:47:59.794: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback302, changed state to up
+*Dec 20 08:47:59.795: %LINK-3-UPDOWN: Interface Loopback302, changed state to up
+*Dec 20 08:58:06.470: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Dec 20 11:31:17.355: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback100, changed state to down
+*Dec 20 11:31:17.363: %LINK-5-CHANGED: Interface Loopback100, changed state to administratively down
+*Dec 20 11:31:18.924: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback101, changed state to down
+*Dec 20 11:31:18.924: %LINK-5-CHANGED: Interface Loopback101, changed state to administratively down
+*Dec 20 11:31:19.917: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback102, changed state to down
+*Dec 20 11:31:19.917: %LINK-5-CHANGED: Interface Loopback102, changed state to administratively down
+*Dec 20 11:31:24.705: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback200, changed state to down
+*Dec 20 11:31:24.705: %LINK-5-CHANGED: Interface Loopback200, changed state to administratively down
+*Dec 20 11:31:25.927: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback201, changed state to down
+*Dec 20 11:31:25.928: %LINK-5-CHANGED: Interface Loopback201, changed state to administratively down
+*Dec 20 11:31:26.736: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback202, changed state to down
+*Dec 20 11:31:26.737: %LINK-5-CHANGED: Interface Loopback202, changed state to administratively down
+*Dec 20 11:31:31.612: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback300, changed state to down
+*Dec 20 11:31:31.613: %LINK-5-CHANGED: Interface Loopback300, changed state to administratively down
+*Dec 20 11:31:32.555: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback301, changed state to down
+*Dec 20 11:31:32.555: %LINK-5-CHANGED: Interface Loopback301, changed state to administratively down
+*Dec 20 11:31:32.946: %SYS-5-CONFIG_I: Configured from console by console
+*Dec 20 11:31:33.531: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback302, changed state to down
+*Dec 20 11:31:33.532: %LINK-5-CHANGED: Interface Loopback302, changed state to administratively down
+*Dec 20 11:31:46.626: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 11:31:47.035: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 11:31:47 UTC Sun Dec 20 2020
+*Dec 20 11:31:47.223: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 11:31:47.590: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 20 11:31:47.591: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 11:31:47.591: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_EXCEPTION_ADDED: Cisco PSB security compliance exception has been added by RSA Key Size for use of SSH Process
+*Dec 20 11:31:48.000: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 11:31:48 UTC Sun Dec 20 2020
+*Dec 20 11:31:48.203: %SYS-5-CONFIG_I: Configured from console by cisco on vty1 (192.168.30.116)
+*Dec 20 11:31:48.552: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 20 11:31:48.962: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 22] at 11:31:48 UTC Sun Dec 20 2020
+*Dec 20 11:31:49.157: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 20 11:31:49.169: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback100, changed state to up
+*Dec 20 11:31:49.169: %LINK-3-UPDOWN: Interface Loopback100, changed state to up
+*Dec 20 11:31:49.187: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback101, changed state to up
+*Dec 20 11:31:49.187: %LINK-3-UPDOWN: Interface Loopback101, changed state to up
+*Dec 20 11:31:49.204: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback102, changed state to up
+*Dec 20 11:31:49.205: %LINK-3-UPDOWN: Interface Loopback102, changed state to up
+*Dec 20 11:31:50.130: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback200, changed state to up
+*Dec 20 11:31:50.130: %LINK-3-UPDOWN: Interface Loopback200, changed state to up
+*Dec 20 11:31:50.147: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback201, changed state to up
+*Dec 20 11:31:50.147: %LINK-3-UPDOWN: Interface Loopback201, changed state to up
+*Dec 20 11:31:50.172: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback202, changed state to up
+*Dec 20 11:31:50.172: %LINK-3-UPDOWN: Interface Loopback202, changed state to up
+*Dec 20 11:31:51.090: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback300, changed state to up
+*Dec 20 11:31:51.091: %LINK-3-UPDOWN: Interface Loopback300, changed state to up
+*Dec 20 11:31:51.118: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback301, changed state to up
+*Dec 20 11:31:51.118: %LINK-3-UPDOWN: Interface Loopback301, changed state to up
+*Dec 20 11:31:51.141: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback302, changed state to up
+*Dec 20 11:31:51.141: %LINK-3-UPDOWN: Interface Loopback302, changed state to up
+*Dec 20 11:41:36.897: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Dec 25 09:04:06.949: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:04:10.559: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:04:14.643: %SYS-5-CONFIG_I: Configured from console by console
+*Dec 25 09:04:25.996: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:04:34.046: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:04:51.012: %SYS-5-CONFIG_I: Configured from console by console
+*Dec 25 09:14:54.593: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 0 (0.0.0.0)), user 
+*Dec 25 09:24:03.408: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:24:03.821: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco1] [Source: 192.168.30.116] [localport: 22] at 09:24:03 UTC Fri Dec 25 2020
+*Dec 25 09:24:04.352: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:24:04.831: %SYS-5-CONFIG_I: Configured from console by cisco1 on vty0 (192.168.30.116)
+*Dec 25 09:24:05.336: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:24:05.748: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco2] [Source: 192.168.30.116] [localport: 22] at 09:24:05 UTC Fri Dec 25 2020
+*Dec 25 09:24:06.279: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:24:06.762: %SYS-5-CONFIG_I: Configured from console by cisco2 on vty1 (192.168.30.116)
+*Dec 25 09:24:07.263: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:24:07.673: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco3] [Source: 192.168.30.116] [localport: 22] at 09:24:07 UTC Fri Dec 25 2020
+*Dec 25 09:24:08.203: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:24:08.681: %SYS-5-CONFIG_I: Configured from console by cisco3 on vty2 (192.168.30.116)
+*Dec 25 09:24:09.182: %SYS-6-LOGOUT: User cisco1 has exited tty session 1(192.168.30.116)
+*Dec 25 09:26:32.242: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 09:26:32 UTC Fri Dec 25 2020
+*Dec 25 09:27:13.062: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:27:14.011: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:27:14.045: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:27:14.735: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:27:57.918: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:27:58.327: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco1] [Source: 192.168.30.116] [localport: 22] at 09:27:58 UTC Fri Dec 25 2020
+*Dec 25 09:27:58.856: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:27:59.341: %SYS-5-CONFIG_I: Configured from console by cisco1 on vty1 (192.168.30.116)
+*Dec 25 09:27:59.841: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:28:00.252: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco2] [Source: 192.168.30.116] [localport: 22] at 09:28:00 UTC Fri Dec 25 2020
+*Dec 25 09:28:00.784: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:28:01.269: %SYS-5-CONFIG_I: Configured from console by cisco2 on vty2 (192.168.30.116)
+*Dec 25 09:28:01.770: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:28:01.770: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_EXCEPTION_ADDED: Cisco PSB security compliance exception has been added by RSA Key Size for use of SSH Process
+*Dec 25 09:28:02.179: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco3] [Source: 192.168.30.116] [localport: 22] at 09:28:02 UTC Fri Dec 25 2020
+*Dec 25 09:28:02.710: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:28:03.195: %SYS-5-CONFIG_I: Configured from console by cisco3 on vty3 (192.168.30.116)
+*Dec 25 09:28:03.694: %SYS-6-LOGOUT: User cisco1 has exited tty session 2(192.168.30.116)
+*Dec 25 09:28:16.518: %SYS-5-CONFIG_I: Configured from console by cisco on vty0 (192.168.30.116)
+*Dec 25 09:28:17.703: %SYS-6-LOGOUT: User cisco has exited tty session 1(192.168.30.116)
+*Dec 25 09:28:29.062: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco1] [Source: 192.168.30.116] [localport: 23] at 09:28:29 UTC Fri Dec 25 2020
+*Dec 25 09:29:22.311: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:29:22.720: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco1] [Source: 192.168.30.116] [localport: 22] at 09:29:22 UTC Fri Dec 25 2020
+*Dec 25 09:29:23.252: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:29:23.731: %SYS-5-CONFIG_I: Configured from console by cisco1 on vty1 (192.168.30.116)
+*Dec 25 09:29:24.235: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:29:24.645: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco2] [Source: 192.168.30.116] [localport: 22] at 09:29:24 UTC Fri Dec 25 2020
+*Dec 25 09:29:25.175: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:29:25.658: %SYS-5-CONFIG_I: Configured from console by cisco2 on vty2 (192.168.30.116)
+*Dec 25 09:29:26.157: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:29:26.567: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco3] [Source: 192.168.30.116] [localport: 22] at 09:29:26 UTC Fri Dec 25 2020
+*Dec 25 09:29:27.102: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:29:27.580: %SYS-5-CONFIG_I: Configured from console by cisco3 on vty3 (192.168.30.116)
+*Dec 25 09:29:28.079: %SYS-6-LOGOUT: User cisco1 has exited tty session 2(192.168.30.116)
+*Dec 25 09:30:05.119: %SYS-6-LOGOUT: User cisco1 has exited tty session 1(192.168.30.116)
+*Dec 25 09:30:40.207: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:30:55.947: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:32:09.261: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco] [Source: 192.168.30.116] [localport: 23] at 09:32:09 UTC Fri Dec 25 2020
+*Dec 25 09:32:11.605: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:32:11.638: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:32:12.515: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:35:43.788: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:36:55.657: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:36:56.068: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco1] [Source: 192.168.30.116] [localport: 22] at 09:36:56 UTC Fri Dec 25 2020
+*Dec 25 09:36:56.600: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:36:57.079: %SYS-5-CONFIG_I: Configured from console by cisco1 on vty1 (192.168.30.116)
+*Dec 25 09:36:57.583: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:36:57.992: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco2] [Source: 192.168.30.116] [localport: 22] at 09:36:57 UTC Fri Dec 25 2020
+*Dec 25 09:36:58.527: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:36:59.008: %SYS-5-CONFIG_I: Configured from console by cisco2 on vty2 (192.168.30.116)
+*Dec 25 09:36:59.509: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:36:59.509: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_EXCEPTION_ADDED: Cisco PSB security compliance exception has been added by RSA Key Size for use of SSH Process
+*Dec 25 09:36:59.917: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco3] [Source: 192.168.30.116] [localport: 22] at 09:36:59 UTC Fri Dec 25 2020
+*Dec 25 09:37:00.445: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:37:00.927: %SYS-5-CONFIG_I: Configured from console by cisco3 on vty3 (192.168.30.116)
+*Dec 25 09:37:01.425: %SYS-6-LOGOUT: User cisco1 has exited tty session 2(192.168.30.116)
+*Dec 25 09:37:27.861: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: cisco3] [Source: 192.168.30.116] [localport: 23] at 09:37:27 UTC Fri Dec 25 2020
+*Dec 25 09:37:28.907: %SYS-6-LOGOUT: User cisco3 has exited tty session 2(192.168.30.116)
+*Dec 25 09:37:40.730: %SSH-5-SSH_COMPLIANCE_VIOLATION_RSA_KEY_SIZE: SSH RSA Key Size compliance violation detected. Kindly note that the usage of keys smaller than 2048 bits will be deprecated in the upcoming releases. Please revise your key configuration accordingly to avoid service impact.
+*Dec 25 09:38:40.395: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon be deprecated. Migrate to a supported password type
+*Dec 25 09:38:40.426: %AAAA-4-CLI_DEPRECATED: WARNING: Command has been added to the configuration using a type 0 password. However, type 0 passwords will soon b

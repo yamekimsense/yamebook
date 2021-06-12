@@ -1,0 +1,217 @@
+
+Yame_L2_2F>enable
+Password:
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#terminal length 0
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#show ver
+Cisco IOS Software, C2960S Software (C2960S-UNIVERSALK9-M), Version 12.2(55)SE5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2012 by Cisco Systems, Inc.
+Compiled Thu 09-Feb-12 19:22 by prod_rel_team
+Image text-base: 0x00003000, data-base: 0x01B00000
+
+ROM: Bootstrap program is Alpha board boot loader
+BOOTLDR: C2960S Boot Loader (C2960S-HBOOT-M) Version 12.2(55r)SE, RELEASE SOFTWARE (fc1)
+
+Yame_L2_2F uptime is 19 weeks, 1 day, 16 hours, 8 minutes
+System returned to ROM by power-on
+System restarted at 19:04:56 KST Sun Oct 27 2019
+System image file is "flash:/c2960s-universalk9-mz.122-55.SE5/c2960s-universalk9-mz.122-55.SE5.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+cisco WS-C2960S-48LPS-L (PowerPC) processor (revision E0) with 131072K bytes of memory.
+Processor board ID FOC1636Z1WQ
+Last reset from power-on
+2 Virtual Ethernet interfaces
+1 FastEthernet interface
+52 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 34:A8:4E:AB:2F:00
+Motherboard assembly number     : 73-11907-08
+Power supply part number        : 341-0393-02
+Motherboard serial number       : FOC1634GWF5
+Power supply serial number      : LIT16330P7L
+Model revision number           : E0
+Motherboard revision number     : A0
+Model number                    : WS-C2960S-48LPS-L
+Daughterboard assembly number   : 73-11933-04
+Daughterboard serial number     : FOC16353WCG
+System serial number            : FOC1636Z1WQ
+Top Assembly Part Number        : 800-30937-03
+Top Assembly Revision Number    : A0
+Version ID                      : V03
+CLEI Code Number                : COMGZ00ARC
+Daughterboard revision number   : A0
+Hardware Board Revision Number  : 0x01
+
+
+Switch Ports Model              SW Version            SW Image
+------ ----- -----              ----------            ----------
+*    1 52    WS-C2960S-48LPS-L  12.2(55)SE5           C2960S-UNIVERSALK9-M
+
+
+Configuration register is 0xF
+
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#show ip int br
+Interface              IP-Address      OK? Method Status                Protocol
+Vlan1                  unassigned      YES NVRAM  administratively down down
+Vlan102                192.168.102.242 YES NVRAM  up                    up
+FastEthernet0          unassigned      YES NVRAM  administratively down down
+GigabitEthernet1/0/1   unassigned      YES unset  up                    up
+GigabitEthernet1/0/2   unassigned      YES unset  down                  down
+GigabitEthernet1/0/3   unassigned      YES unset  up                    up
+GigabitEthernet1/0/4   unassigned      YES unset  up                    up
+GigabitEthernet1/0/5   unassigned      YES unset  down                  down
+GigabitEthernet1/0/6   unassigned      YES unset  down                  down
+GigabitEthernet1/0/7   unassigned      YES unset  up                    up
+GigabitEthernet1/0/8   unassigned      YES unset  up                    up
+GigabitEthernet1/0/9   unassigned      YES unset  up                    up
+GigabitEthernet1/0/10  unassigned      YES unset  down                  down
+GigabitEthernet1/0/11  unassigned      YES unset  down                  down
+GigabitEthernet1/0/12  unassigned      YES unset  up                    up
+GigabitEthernet1/0/13  unassigned      YES unset  up                    up
+GigabitEthernet1/0/14  unassigned      YES unset  up                    up
+GigabitEthernet1/0/15  unassigned      YES unset  up                    up
+GigabitEthernet1/0/16  unassigned      YES unset  up                    up
+GigabitEthernet1/0/17  unassigned      YES unset  up                    up
+GigabitEthernet1/0/18  unassigned      YES unset  up                    up
+GigabitEthernet1/0/19  unassigned      YES unset  up                    up
+GigabitEthernet1/0/20  unassigned      YES unset  up                    up
+GigabitEthernet1/0/21  unassigned      YES unset  up                    up
+GigabitEthernet1/0/22  unassigned      YES unset  up                    up
+GigabitEthernet1/0/23  unassigned      YES unset  up                    up
+GigabitEthernet1/0/24  unassigned      YES unset  up                    up
+GigabitEthernet1/0/25  unassigned      YES unset  up                    up
+GigabitEthernet1/0/26  unassigned      YES unset  down                  down
+GigabitEthernet1/0/27  unassigned      YES unset  down                  down
+GigabitEthernet1/0/28  unassigned      YES unset  up                    up
+GigabitEthernet1/0/29  unassigned      YES unset  up                    up
+GigabitEthernet1/0/30  unassigned      YES unset  up                    up
+GigabitEthernet1/0/31  unassigned      YES unset  up                    up
+GigabitEthernet1/0/32  unassigned      YES unset  up                    up
+GigabitEthernet1/0/33  unassigned      YES unset  up                    up
+GigabitEthernet1/0/34  unassigned      YES unset  up                    up
+GigabitEthernet1/0/35  unassigned      YES unset  up                    up
+GigabitEthernet1/0/36  unassigned      YES unset  up                    up
+GigabitEthernet1/0/37  unassigned      YES unset  down                  down
+GigabitEthernet1/0/38  unassigned      YES unset  down                  down
+GigabitEthernet1/0/39  unassigned      YES unset  up                    up
+GigabitEthernet1/0/40  unassigned      YES unset  up                    up
+GigabitEthernet1/0/41  unassigned      YES unset  down                  down
+GigabitEthernet1/0/42  unassigned      YES unset  up                    up
+GigabitEthernet1/0/43  unassigned      YES unset  down                  down
+GigabitEthernet1/0/44  unassigned      YES unset  up                    up
+GigabitEthernet1/0/45  unassigned      YES unset  up                    up
+GigabitEthernet1/0/46  unassigned      YES unset  up                    up
+GigabitEthernet1/0/47  unassigned      YES unset  up                    up
+GigabitEthernet1/0/48  unassigned      YES unset  up                    up
+GigabitEthernet1/0/49  unassigned      YES unset  up                    up
+GigabitEthernet1/0/50  unassigned      YES unset  down                  down
+GigabitEthernet1/0/51  unassigned      YES unset  down                  down
+GigabitEthernet1/0/52  unassigned      YES unset  down                  down
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#show cdp nei
+% CDP is not enabled
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#show cdp nei det
+% CDP is not enabled
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#show module
+                       ^
+% Invalid input detected at '^' marker.
+
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#show logg
+Syslog logging: enabled (0 messages dropped, 0 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 46255 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 46255 messages logged, xml disabled,
+                     filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    File logging: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 46258 message lines logged
+
+Log Buffer (4096 bytes):
+ Line protocol on Interface GigabitEthernet1/0/16, changed state to up
+Mar 10 08:31:28.195 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/15, changed state to down
+Mar 10 08:31:29.207 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/15, changed state to down
+Mar 10 08:31:32.914 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/15, changed state to up
+Mar 10 08:31:33.916 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/15, changed state to up
+Mar 10 08:34:31.665 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/34, changed state to down
+Mar 10 08:34:32.671 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/34, changed state to down
+Mar 10 08:34:36.342 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/34, changed state to up
+Mar 10 08:34:37.343 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/34, changed state to up
+Mar 10 08:40:35.159 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/13, changed state to up
+Mar 10 08:40:36.171 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/13, changed state to up
+Mar 10 08:40:48.697 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/14, changed state to down
+Mar 10 08:40:49.698 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/14, changed state to down
+Mar 10 08:40:52.687 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/14, changed state to up
+Mar 10 08:40:53.699 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/14, changed state to up
+Mar 10 08:41:21.629 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/14, changed state to down
+Mar 10 08:41:22.641 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/14, changed state to down
+Mar 10 08:41:26.437 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/14, changed state to up
+Mar 10 08:41:27.439 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/14, changed state to up
+Mar 10 08:41:29.573 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/13, changed state to down
+Mar 10 08:41:30.574 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/13, changed state to down
+Mar 10 08:41:33.579 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/13, changed state to up
+Mar 10 08:41:34.580 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/13, changed state to up
+Mar 10 08:41:35.026 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/36, changed state to down
+Mar 10 08:41:36.017 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/36, changed state to down
+Mar 10 08:41:39.068 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/36, changed state to up
+Mar 10 08:41:40.070 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/36, changed state to up
+Mar 10 08:53:46.712 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/18, changed state to down
+Mar 10 08:53:47.719 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/18, changed state to down
+Mar 10 08:53:50.409 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/18, changed state to up
+Mar 10 08:53:51.410 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/18, changed state to up
+Mar 10 08:54:39.003 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/18, changed state to down
+Mar 10 08:54:40.004 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/18, changed state to down
+Mar 10 08:54:43.732 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/18, changed state to up
+Mar 10 08:54:44.733 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/18, changed state to up
+Mar 10 09:23:44.591 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/12, changed state to down
+Mar 10 09:23:45.597 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/12, changed state to down
+Mar 10 09:23:48.203 KST: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/12, changed state to up
+Mar 10 09:23:49.205 KST: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/12, changed state to up
+Yame_L2_2F#
+Yame_L2_2F#
+Yame_L2_2F#exit
